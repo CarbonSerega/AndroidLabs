@@ -24,4 +24,5 @@ public class AboutActivity extends AppCompatActivity {
     public void click_backToMain(View view) {
         finish();
     }
+
 }

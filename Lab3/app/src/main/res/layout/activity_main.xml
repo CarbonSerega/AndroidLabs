@@ -115,4 +115,20 @@
             android:textSize="24sp" />
     </LinearLayout>
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="389dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:onClick="click_changeOrientation"
+        android:text="Змінити орієнтацію"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
